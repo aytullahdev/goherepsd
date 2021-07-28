@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.container-full{
+    width: 100%;
+    margin: auto;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+  
+}
+.row{
+    overflow: hidden;
+}
+.col-12{
+	float: left;
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.col-10{
+	float: left;
+	width: 83.333%;
+	padding-right: 15px;
+	
+
+}
+.col-9{
+		float: left;
+	width: 75%;
+	padding-right: 15px;
+	padding-left: 15px;
+
+}
+.col-7{
+		float: left;
+	width: 58.333%;
+	padding-right: 15px;
+	padding-left: 15px;
+
+}
+
+.col-6{
+	float: left;
+	width: 50%;
+	padding-right: 15px;
+	padding-left: 15px;
+
+}
+.col-5{
+	float: left;
+	width: 41.666%;
+	padding-right: 15px;
+	padding-left: 15px;
+
+}
+.col-3{
+	float: left;
+	width: 25%;
+	padding-right: 15px;
+	padding-left: 15px;
+
+}
+.col-4{
+    float: left;
+	width:33.3333%;
+	padding-right: 15px;
+	padding-left: 15px;
+
+}
+.col-2{
+	float: left;
+	width: 16.666%;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+header{
+    padding-top: 10px;
+
+}
+.logo{
+    padding-left: 50px;
+}
+.logo figure{
+    position: relative;
+    
+}
+.logo figure figcaption{
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    
+    font-size: 35px;
+}
+nav ul{
+    list-style: none;
+    padding-top: 25px;
+}
+nav ul li{
+    display: block;
+    float: left;
+    font-size: 15px;
+    margin-right: 20px;
+}
+nav ul li a:hover{
+    color: coral;
+}
+.banner figure{
+    position: relative;
+
+}
+.banner figure figcaption{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.banner figure figcaption h1{
+    font-size: 30px;
+    text-align: center;
+    line-height: 40px;
+    width: 350px;
+   text-decoration: underline;
+   
+}
+.banner figure figcaption p{
+    text-align: center;
+    padding-top: 5px;
+    font-size: 14px;
+}
+.sec01 h1{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+    color: #637f83;
+}
+.sec01 p{
+    text-align: center;
+    padding-bottom: 30px;
+    color: #637f83;
+    font-size: 30px;
+}
+.sec02{
+    background-color: #f6f6f6;
+}
+.card{
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.card img{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    
+}
+.card h4,p{
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+}
+.card a{
+     padding:5px 10px;
+     background-color: #637f83;
+     color: white;
+     margin-left: 100px;
+     border-radius: 7px;
+     
+}
+
+.bdr{
+    border-right: 1px solid gray;
+}
+.pdr{
+    padding-top: 25px;
+}
+.sec03 h3{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 35px;
+
+}
+.sec03 p{
+    text-align: center;
+     padding-top: 0;
+    font-size: 25px;
+}
+.btn{
+    height: 35px;
+    border-radius: 6px;
+    width: 120px;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: coral;
+    color: white;
+    
+}
+.card2 >div>p{
+    text-align: left;
+    padding-left: 0;
+    font-size: 15px;
+
+}
+.card2 >div>p>a{
+    color: coral;
+    font-size: 16px;
+    padding-left: 5px;
+}
+.sec04{
+    background-color: #637f83;
+}
+.sec04 >div>div>div>h2{
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    font-size: 35px;
+}
+.sec04 >div>div>div>p{
+    font-size: 30px;
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+.sec05{
+   padding: 50px;
+}
+.sec05 input{
+    width: 350px;
+    height: 40px;
+    background-color: #637f83;
+   outline: none;
+   border: none;
+   padding-right: 5px;
+   color: white;
+   border-radius: 5px;
+}
+.sec05 button{
+    width: 100px;
+    height: 40px;
+    background-color: #637f83;
+   color: white;
+   border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+footer{
+    background-color:#637f83;
+}
+.sec06>div>div>figure{
+    position: relative;
+}
+.sec06>div>div>figure>figcaption{
+    position: absolute;
+    left: 75px;
+    top: 45px;
+    color: #acbec1;
+    font-size: 19px;
+}
+.sec06 p{
+    color: white;
+    font-size: 12px;
+}
+.bpdr{
+    padding-bottom: 20px;
+}
